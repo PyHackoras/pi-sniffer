@@ -2,7 +2,7 @@
 #
 # autoscan - simple auto scanner for kali linux on raspberry pi
  
-source /root/.autoscan.cfg
+source /root/pi-sniffer/.autoscan.cfg
  
 airmon-ng start ${AIRMON_DEV}
  
